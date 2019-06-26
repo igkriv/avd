@@ -141,6 +141,7 @@ if ($_POST) {
   }
 
   echo "<form action='s.php' method='post'><input id='secinput' class='fi forma' type='submit' value='download excel file'></form>";
+
   echo "<br><br><div align='left'>___служебный___<br>\$col (цвет желоба) = ", $col;
   echo "<br>\$col1 (цвет трубы) = ", $col1, "<br>___служебный___<br><br>";
   echo "\$diam (диамер желоба) - ", $diam, " мм <br>";
@@ -177,6 +178,7 @@ if ($_POST) {
   // echo "troinik110 - ", $troinik110, "<br>";
   // echo "troinik63 - ", $troinik63, "<br>";
   echo "</div>";
+  echo "<br><form action='b1.php' method='post'><input id='secinput' class='fi forma' type='submit' value='очистить исходник'></form>";
 
   # блок вставки данных в файл
   $inputFileName = 'ЗАЯВКА ВОДОСТОК.xlsx';
