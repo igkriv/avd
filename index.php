@@ -1,3 +1,9 @@
+<?php
+
+include 'password_protect.php';
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
